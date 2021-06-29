@@ -1,0 +1,19 @@
+{
+    "name": "Messenger Dark Theme",
+    "description": "Dark theme for Messenger.com",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs",
+        "notifications"
+    ],
+    "host_permissions": [
+        "https://www.messenger.com/*"
+    ]
+}
